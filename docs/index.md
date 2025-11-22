@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Aloha Desktop Documentation"
-  text: "Aloha Desktop - a powerful, extendable AI assistant that runs entirely on your computer."
-  tagline: My great project tagline
+  name: "Aloha Desktop"
+  text: "Documentation"
+  tagline: Aloha Desktop is a powerful, extendable AI assistant that runs entirely on your computer.
   actions:
     - theme: brand
       text: Markdown Examples

@@ -3,8 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "docs",
-  
-  title: "Aloha Desktop Documentation",
+  title: "Aloha Desktop Docs",
   description: "Aloha Desktop - a powerful, extendable AI assistant that runs entirely on your computer.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -24,7 +23,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/antarasi/aloha-releases' }
     ]
   }
 })
