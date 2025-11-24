@@ -29,6 +29,10 @@ export default defineConfig({
 
     editLink: {
       pattern: 'https://github.com/antarasi/aloha-docs/edit/main/docs/:path'
+    },
+
+    search: {
+      provider: 'local'
     }
   }
 })
