@@ -5,6 +5,7 @@ export default defineConfig({
   srcDir: "docs",
   title: "Aloha Desktop Docs",
   description: "Aloha Desktop - a powerful, extendable AI assistant that runs entirely on your computer.",
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -24,6 +25,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/antarasi/aloha-releases' }
-    ]
+    ],
+
+    editLink: {
+      pattern: 'https://github.com/antarasi/aloha-docs/edit/main/docs/:path'
+    }
   }
 })
