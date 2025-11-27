@@ -2,6 +2,10 @@
 
 The recommended way to build plugins with NPM dependencies is using the official **vite-aloha** template.
 
+::: tip
+**vite-aloha** template includes [aloha-sdk](https://github.com/antarasi/aloha-sdk) that provides TypeScript types for plugin development.
+:::
+
 [Get vite-aloha on GitHub](https://github.com/antarasi/vite-aloha/).
 
 ## Why Use vite-aloha?
@@ -152,10 +156,10 @@ The built `dist/index.esm.js` will contain your plugin code **and** the axios li
 
 ## Recommended Practices
 
-1. **Use ES modules** when available (`date-fns`, `lodash-es`)
-2. **Import only what you need** from large libraries
-3. **Check bundle size** after adding dependencies
-4. **Consider alternatives** for large libraries
+- **Use ES modules** when available (`date-fns`, `lodash-es`)
+- **Import only what you need** from large libraries
+- **Check bundle size** after adding dependencies
+- **Consider alternatives** for large libraries
 
 ## Next Steps
 
