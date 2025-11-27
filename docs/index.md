@@ -4,22 +4,22 @@ layout: home
 
 hero:
   name: "Aloha Desktop"
-  text: "Documentation"
-  tagline: Aloha Desktop is a powerful, extendable AI assistant that runs entirely on your computer.
+  text: "Plugin Development"
+  tagline: A powerful, extendable AI assistant that runs entirely on your computer.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Getting Started
+      link: /getting-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: SDK Features
+      link: /cli
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 🔌 Extensible Plugin System
+    details: Build custom plugins to extend your AI assistant's capabilities. Add new tools, integrate with external services, and create powerful workflows.
+  - title: 🚀 Developer-Friendly SDK
+    details: Full TypeScript support with the aloha-sdk. Build plugins with modern tooling including Vite, type checking, and automated testing.
+  - title: 📦 Automatic Publishing
+    details: Publish your plugin to the open marketplace with built-in GitHub Actions workflow. Push a version tag and let automation handle building, packaging, and releasing.
 ---
 

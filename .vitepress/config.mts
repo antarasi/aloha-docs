@@ -10,15 +10,37 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Getting Started', link: '/getting-started' },
+      { text: 'Examples', link: '/examples' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Getting Started',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Introduction', link: '/getting-started' }
+        ]
+      },
+      {
+        text: 'Plugin Development',
+        items: [
+          { text: 'Plugin Requirements', link: '/plugin-requirements' },
+          { text: 'Adding NPM Dependencies', link: '/adding-dependencies' },
+          { text: 'Publishing Your Plugin', link: '/publishing' }
+        ]
+      },
+      {
+        text: 'SDK',
+        items: [
+          { text: 'CLI', link: '/cli' },
+          { text: 'Logging', link: '/logging' },
+          { text: 'Rendering Web Content', link: '/rendering-web-content' }
+        ]
+      },
+      {
+        text: 'Resources',
+        items: [
+          { text: 'Examples', link: '/examples' }
         ]
       }
     ],
